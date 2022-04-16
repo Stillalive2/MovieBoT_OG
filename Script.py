@@ -4,23 +4,25 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 ʜᴇʏ ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ᴏғ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs"""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/NCM_LINKS>ɴᴄᴍ ʟɪɴᴋs</a>
-✯ ʟɪʙʀᴀʀʏ: ᴘʏʀᴏɢʀᴀᴍ
-✯ ʟᴀɴɢᴜᴀɢᴇ: ᴘʏᴛʜᴏɴ
-✯ ᴅᴀᴛᴀ ʙᴀsᴇ : ᴍᴏɴɢᴏᴅᴠ
-✯ ʙᴏᴛ sᴇʀᴠᴇʀ : ᴄᴏɴᴛᴀʙᴏ
-✯ ʙᴜɪʟᴅ sᴛᴀᴛᴜs: v𝟸.𝟸.𝟸 [sᴛᴀʙʟᴇ ]"""
+❤️ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/NCM_LINKS>ɴᴄᴍ ʟɪɴᴋs</a>
+🧡 ʟɪʙʀᴀʀʏ: <a href=https://docs.pyrogram.org/>ᴘʏʀᴏɢʀᴀᴍ ᴀsʏɴᴄɪᴏ 𝟷.𝟷𝟹.𝟶</a>
+💛 ʟᴀɴɢᴜᴀɢᴇ: <a href=https://python.org/>ᴘʏᴛʜᴏɴ 𝟹.𝟿.𝟸</a>
+💚 ᴅᴀᴛᴀ ʙᴀsᴇ: <a href=https://mongodb.com/>ᴍᴏɴɢᴏᴅʙ</a>
+🖤 ᴅʙ ᴅʀɪᴠᴇʀ: <a href=https://motor.readthedocs.io/>ᴍᴏᴛᴏʀ ᴀsʏɴᴄɪᴏ 𝟸.𝟻.𝟷</a>
+🤎 ɪᴍᴅʙ sᴄʀᴀᴘᴘᴇʀ: <a href=https://pypi.org/project/IMdBPY>ɪᴍᴅʙᴘʏ</a>
+💙 ʙᴏᴛ sᴇʀᴠᴇʀ : <a href=https://contabo.com/>ᴄᴏɴᴛᴀʙᴏ</a>
+💜 ᴄɪɴᴇᴍᴀ ɢʀᴏᴜᴘ: <a href=https://t.me/new_cinema_mall>ɴᴇᴡ ᴄɪɴᴇᴍᴀ ᴍᴀʟʟ</a>"""
     SOURCE_TXT = """<b>NOTE:</b>
 - ᴏᴜʀ ᴄɪɴᴇᴍᴀ ɢʀᴏᴜᴘ :- @NEW_CINEMA_MALL  
 
 <b>DEVS:</b>
-- <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
+- <a href=https://t.me/NCM_LINKS>ɴᴄᴍ ʟɪɴᴋs</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. eva maria should have admin privillage.
+1. <a href=https://t.me/{}>{}</a> should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -31,11 +33,11 @@ class script(object):
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- Eva Maria Supports both url and alert inline buttons.
+- <a href=https://t.me/{}>{}</a> Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Eva Maria supports buttons with any telegram media type.
+2. <a href=https://t.me/{}>{}</a> supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
@@ -66,7 +68,7 @@ class script(object):
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of Eva Maria
+these are the extra features of <a href=https://t.me/{}>{}</a>
 
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specified user.</code>
