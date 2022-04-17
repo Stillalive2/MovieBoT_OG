@@ -335,13 +335,6 @@ async def delete(bot, message):
                 await msg.edit('File not found in database')
 
 
-@Client.on_callback_query(filters.regex(r'^autofilter_delete'))
-async def delete_all_index_confirm(bot, message):
-    await Media.collection.drop()
-    await message.answer('Piracy Is Crime')
-    await message.message.edit('Succesfully Deleted All The Indexed Files.')
-
-
 @Client.on_message(filters.command('settings'))
 async def settings(client, message):
     userid = message.from_user.id if message.from_user else None
