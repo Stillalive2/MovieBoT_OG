@@ -5,9 +5,10 @@ services:
     environment:
       API_ID: $API_ID
       API_HASH: $API_HASH
-      BOT_TOKEN: $BOT_TOKEM
+      BOT_TOKEN: $BOT_TOKEN
       DATABASE_URI: $DATABASE_URI
       CHANNELS: $CHANNELS
       DATABASE_NAME: $DATABASE_NAME
       ADMINS: $ADMINS
       LOG_CHANNEL: $LOG_CHANNEL
+      PICS: $PICS
