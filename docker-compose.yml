@@ -15,17 +15,4 @@ services:
       MAX_LIST_ELM: $MAX_LIST_ELM
       CUSTOM_CAPTION: $CUSTOM_CAPTION
       SINGLE_BUTTON: $SINGLE_BUTTON
-      IMDB_TEMPLATE: Hey {message.from_user.mention},
-Here is the result for your {query}
-
-<b>🀄TITLE: <a href={url}>{title}</a>
-
-🎭GENRES: {genres} | RunTime: {runtime} Minutes
-
-🌟RATING: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
-
-❤CAST : <code>{cast}</code>
-
-📺STORY LINE: <code>{plot}</code>
-
-Powered By {message.chat.title}
+      IMDB_TEMPLATE: $IMDB_TEMPLATE
