@@ -42,9 +42,9 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TeamEvamaria')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_CAPTION", "FILE NAME : <code>{file_name}</code>  SIZE : <i>{file_size}</i>  JOIN @NEW_CINEMA_MALL")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "FILE NAME : <code>{file_name}</code>  SIZE : <i>{file_size}</i>  JOIN @NEW_CINEMA_MALL")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
-IMDB_TEMPLATE = environ.get("OKAY", "Hey {message.from_user.mention},
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "Hey {message.from_user.mention},
 Here is the result for your {query}
 
 <b>🀄TITLE: <a href={url}>{title}</a>
