@@ -44,20 +44,7 @@ IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "FILE NAME : <code>{file_name}</code>  SIZE : <i>{file_size}</i>  JOIN @NEW_CINEMA_MALL")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "Hey {message.from_user.mention},
-Here is the result for your {query}
-
-<b>🀄TITLE: <a href={url}>{title}</a>
-
-🎭GENRES: {genres} | RunTime: {runtime} Minutes
-
-🌟RATING: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
-
-❤CAST : <code>{cast}</code>
-
-📺STORY LINE: <code>{plot}</code>
-
-Powered By {message.chat.title}")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "Hey {message.from_user.mention},\nHere is the result for your {query}\n\n<b>🀄TITLE: <a href={url}>{title}</a>\n\n🎭GENRES: {genres} | RunTime: {runtime} Minutes\n\n🌟RATING: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)\n\n❤CAST : <code>{cast}</code>\n\n📺STORY LINE: <code>{plot}</code>\n\nPowered By {message.chat.title}")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
