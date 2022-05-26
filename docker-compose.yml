@@ -12,5 +12,4 @@ services:
       ADMINS: $ADMINS
       LOG_CHANNEL: $LOG_CHANNEL
       PICS: $PICS
-      MAX_LIST_ELM: $MAX_LIST_ELM
-      SINGLE_BUTTON: $SINGLE_BUTTON      
+     
